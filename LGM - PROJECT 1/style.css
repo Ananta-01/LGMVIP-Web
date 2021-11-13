@@ -1,0 +1,469 @@
+.heading{
+    text-align: center;
+    padding: 25px;
+    font-weight: 600;
+}
+.nav-link{
+    color: white;
+    }
+.color{
+    background-color: rgb(85, 11, 156);
+    color: white;
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+}
+.main-content p{
+    width: 30vw;
+    font-size: 15px;
+    margin: 0px 20px;
+    color: rgb(73, 73, 73);
+    
+}
+.main-content img{
+    width: 7vw;
+}
+.main-content-2 img{
+    background-color: #52217b;
+padding: 13px;
+border-radius: 18px;
+margin: 0px 24px;
+}
+.main-content-2 h5{
+    font-size: 15px;
+font-weight: 600;
+margin: 15px 0px;
+}
+.main-content-2 p{
+    width: 7vw;
+font-size: 11px;
+text-align: center;
+color: #979797;
+}
+.color-2{
+    background-color: rgb(85, 11, 156);
+    color: white;
+    font-size: 10px;
+}
+
+.midile{
+    display: flex;
+    justify-content: center;
+}
+.main-content-2{
+    margin: 50px 100px;
+}
+.under-line{
+    width: 65vw;
+    
+}
+.yellow-btn{
+    background-color: #f1b910;
+}
+.project h3{
+    text-align: center;
+    font-size: 1.9rem;
+font-weight: 700;
+margin: 15px 0px 25px;
+}
+.project-main h5{
+    text-align: center;
+margin: 15px 0px;
+font-weight: 600;
+line-height: 1.1;
+font-size: 1.4rem;
+font-style: normal;
+letter-spacing: 0.038em;
+}
+.project-main p{
+    padding: 0px 40px;
+font-size: 13px;
+text-align: start;
+}
+.project-main{
+    width: 24vw;;
+    background-color: #e9e9e9;;
+}
+.pm-colour{
+    background-color: #ffd775;
+}
+.pm-colour-2{
+    background-color: #cdcdcd;
+}
+.project-main img{
+    width: 24vw;
+    height: 50vh;
+}
+.project-main button{
+    margin: 0px 0px 0px 80px;
+    font-size: 10px;
+}
+.project-md{
+    display: flex;
+    justify-content: center;
+}
+.pt-head{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+.sm-vid{
+    position: absolute;
+left: 25vw;
+    
+}
+.bg-c{
+    height: 75vh;
+    background-color: #512c74;
+}
+.bg-c h5{
+    text-align: center;
+margin: 35px 0px;
+font-weight: 600;
+font-size: 2rem;
+padding: 10px 0px;
+color: white;
+}
+.team h5{
+    text-align: center;
+margin: 35px 0px;
+font-weight: 600;
+font-size: 2rem;
+padding: 10px 0px;
+
+}
+.row{
+    justify-content: center;
+}
+.col-lg-4{
+    width: 20%;
+text-align: center;
+}
+.col-lg-4 h2{
+    font-size: 0.9rem;
+margin-top: 15px;
+font-weight: 700;
+}
+.col-lg-4 p{
+    font-size: 13px;
+color: #b3b3b3;
+margin-bottom: 2rem;
+}
+.rounded-circle:hover{
+
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container-2 {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 150px;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #ffffff;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 150;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  .size{
+    background-color: #e8e8e8;
+    padding: 20vh;
+  }
+  .input-group::before{
+        content: 'Newsletter Singup';
+        background: url(/img/after.jpg) no-repeat center center/cover;
+        position: absolute;
+        opacity: 0.3;
+        top: 0px;
+        left: 0px;
+        width: 99vw;
+        height: 100vh;
+        z-index: -1;
+        text-align: center;
+  }
+  .input-group{
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+.form-control{
+    margin-left: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.b-h{
+    text-align: center;
+margin: 35px 0px;
+font-weight: 600;
+font-size: 2rem;
+padding: 10px 0px;
+color: rgb(0, 0, 0);
+}
+.blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.blog-2 img{
+   width: 50%;
+}
+.blog-2 h4{
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 20px 0px;
+} 
+.date{
+    font-size: 11px;
+line-height: 16.5px;
+letter-spacing: 0.032em;
+font-weight: 400;
+color: #bcbcbc;
+
+} 
+.para{
+    font-size: 15px;
+font-weight: 600;
+} 
+.og-btn{
+    background: #e6e6e6;
+border: solid 0px aqua;
+padding: 5px;
+font-size: smaller;
+width: 110px;
+}
+.og-btn:hover{
+    background-color: #ffd775;
+}
+.googlemap{
+    margin: 20px 0px;
+    height: 60vh;
+    background-color: #ffd775;
+}
+.google{
+    display: flex;
+
+}
+.map-contact{
+    margin: 0px 40px;
+    
+}
+.map-contact h4{
+    font-size: 2rem;
+font-weight: 600;
+}
+.map-contact p{
+    font-size: 13px;
+font-weight: 600;
+margin: 15px 0px 0px 0px;
+}
+.map-contact button{
+    display: block;
+width: 20vw;
+background: #6b368f;
+color: white;
+border: solid 0px #6b368f;
+
+}
+.map-contact input{
+    width: 20vw;
+}
+.logos{
+    display: flex;
+}
+
+
+/* phone  */
+
+@media screen and (max-width: 480px) {
+   
+.main-content img {
+
+    width: 20vw;
+
+}
+.main-content p {
+    width: 60vw;
+}
+.main-content-2 {
+    margin: 50px 10px;
+}
+.main-content-2 p {
+    width: 25vw;
+}
+.project-main img{
+    height: 15vh;
+}
+.project-main p {
+    padding: 0px 1px;
+    font-size: 10px;
+}
+.project-main h5{
+   font-size: 0.7rem; 
+}
+.project-main button {
+    margin: 2px 0px 10px 5px;
+    font-size: 9px;
+}
+.bg-c {
+    height: 30vh;
+}
+.col-lg-4 {
+    width: 40%;
+}
+.mySlides{
+ width: 96vw;
+}
+.size{
+    padding: 1vh;
+}
+.next {
+    right: 1px;
+}
+
+.input-group::before{
+    height: 25vh;
+}
+.form-control {
+    margin-left: 30px;
+}
+.input-group{
+    height: 25vh;
+}
+.b-h{
+    margin: 15px 0px;
+}
+.blog-2 img {
+    width: 80%;
+}
+.blog-2 h4{
+    font-size: 0.9rem;
+    margin: 10px 0px;
+}
+.para {
+    font-size: 10px;
+font-weight: 500;
+}
+.og-btn {
+    
+    font-size: 10px;
+    width: 90px;
+}
+.google {
+    display: flex;
+    flex-direction: column;
+}
+.googlemap {
+
+    height: 96vh;
+}
+/* .row{
+    height: 30vh;
+} */
+#map{
+    width: 100%;
+}
+.footer-size{
+    font-size: 9px;
+width: 100%;
+}
+}
